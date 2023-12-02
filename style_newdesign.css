@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+  /*background-color:#2e2e2e;*/
+  background: rgb(218,0,255);
+background: linear-gradient(90deg, rgba(218,0,255,1) 0%, rgba(249,255,0,1) 100%);
+}
+body{
+  color:white;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+mis{
+  background-color: #550063;
+  padding: 15px 32px;
+  border-radius: 5px;
+}
+button{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 20%);
+        font-family: Blippo, fantasy;
+      background-color: #151616;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+     text-decoration: none;
+      display: inline-block;
+      font-size: medium;
+      margin: 4px 2px;
+     cursor: pointer;
+  border-radius: 50px;
+}
+credit{
+  font-size: large;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 450%);
+}
